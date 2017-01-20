@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;  
+}
+
+nav {
+    height: 100px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.sect {
+    height: 100%;
+    
+}
+
+.subSection {
+    height: 50%;
+    
+}
+
+.sectOne{
+    background-image: url("../Images/Page1-intro/sect1-page1.jpg");
+}
+
+.sectTwo{
+    background-image: url("../Images/Page1-intro/sect2-page1.png");
+}
+
+.subOne{
+    background-image: url("../Images/Page1-intro/subSection1-page1.jpg");
+}
+
+.subTwo{
+    background-image: url("../Images/Page1-intro/subSection2-page1.jpg");
+}
