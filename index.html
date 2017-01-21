@@ -19,19 +19,26 @@
 
     <!--This is the css script for the home page-style -->
     <link rel="stylesheet" href="css/Page-style.css">
-
+    
 </head>
 <body>
     <nav>
-        <a href="#homeSection">Home</a>
-        <a href="#introSection">Intro</a>
-        <a href="#contactSection">Contact</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Fun</a>
+        <!--These are on the home page-->
+        <a id="home" href="#homeSection">Home</a>
+        <a id="intro" href="#introSection">Intro</a>
+        <a id="contact" href="#contactSection">Contact</a>
+
+        <!--These lead to anotherwebpage-->
+        <a href="">Portfolio</a>
+        <a href="">Fun</a>
     </nav>
     <div id= "homeSection" class="sect sectOne"></div>
     <div id= "jokeSection" class="subSection subOne" ></div>
     <div id= "introSection" class="sect sectTwo"></div>
     <div id= "contactSection" class="subSection subTwo" ></div>
+
+    <!--This is the js script that does the auto scroll
+    to the tab.-->
+    <script src="js/scroll-toTab.js"></script>
 </body>
 </html>
