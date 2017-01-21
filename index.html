@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>MypersonalWebsite-Page1</title>
+    <!--include jQuary 3.1.1 -->
+    <script type='text/javascript' 
+    src='js/lib/jQuery/jquery-3.1.1.min.js'></script>
+  
+    <!--include Bootstrap-3.3.7-dist js-->
+    <script type='text/javascript' 
+    src='js/lib/Bootstrap_jQuery/bootstrap.min.js'></script>
+
+    <!--include Bootstrap-3.3.7-dist css-->
+    <link rel='stylesheet' 
+    href='css/lib/Bootstrap_css/bootstrap.min.css'>
+    <link rel='stylesheet' 
+    href='css/lib/Bootstrap_css/bootstrap-theme.min.css'>
+
+    <!--This is the css script for the home page-style -->
     <link rel="stylesheet" href="css/Page-style.css">
 
 </head>
 <body>
-    <nav></nav>
-    <div class="sect sectOne"></div>
-    <div class="subSection subOne" ></div>
-    <div class="sect sectTwo"></div>
-    <div class="subSection subTwo" ></div>
+    <nav>
+        <a href="#homeSection">Home</a>
+        <a href="#introSection">Intro</a>
+        <a href="#contactSection">Contact</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Fun</a>
+    </nav>
+    <div id= "homeSection" class="sect sectOne"></div>
+    <div id= "jokeSection" class="subSection subOne" ></div>
+    <div id= "introSection" class="sect sectTwo"></div>
+    <div id= "contactSection" class="subSection subTwo" ></div>
 </body>
 </html>
