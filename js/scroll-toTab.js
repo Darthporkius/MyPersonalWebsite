@@ -31,11 +31,12 @@ $(document).ready(function() {
         }else{
             homeSectionContent.show(1000);
         }
-
+/*
         if (windowPosition >= 1456 || windowPosition <= 1330) {
             portfolioSectionContent.hide(500);
         } else {
             portfolioSectionContent.show(500);
         }
+        */
     });
 }); 
