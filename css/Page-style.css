@@ -36,6 +36,7 @@ nav a{
     
 }
 
+/*Layout of the sections*/
 .sect {
     height: 100%;
     background-size: cover;
@@ -70,4 +71,31 @@ nav a{
     background-image: 
     url("../Images/Page1-intro/subSection2-page1.jpg");
     background-position: top;
+}
+
+/*Layout of the home Tab*/
+.homeContent{
+    position: fixed;
+    z-index: 0;
+    width: 900px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+/*Layout of the joke Tab*/
+.funContent{
+    width: 550px;
+    padding: 55px 20px 20px 20px;
+}
+
+/*Layout of the home Tab*/
+.portfolioContent{
+    width: 900px;
+    padding: 100px 20px 20px 20px;
+}
+
+.contactContent{
+    width: 550px;
+    padding: 55px 20px 20px 20px;
 }

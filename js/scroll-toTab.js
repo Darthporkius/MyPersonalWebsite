@@ -4,7 +4,7 @@ $(document).ready(function(){
     scrollToTab();
 })
 
-/*This select teh target by clicking on it*/
+/*This select the target by clicking on it*/
 function scrollToTab(){
     $("nav a").click(function(e){
         e.preventDefault();
@@ -15,3 +15,27 @@ function scrollToTab(){
         }, 1000)
     })
 }
+
+
+/*This hides or shows tab text by scrolling*/
+$(document).ready(function() { 
+    var homeSectionContent = $(".homeContent");
+    var portfolioSectionContent = $(".portfolioContent");
+
+    $(window).scroll(function(e) {
+    var windowPosition = $(document).scrollTop();
+
+    console.log(windowPosition);
+        if (windowPosition >= 500) {
+            homeSectionContent.hide(1000);
+        }else{
+            homeSectionContent.show(1000);
+        }
+
+        if (windowPosition >= 1456 || windowPosition <= 1330) {
+            portfolioSectionContent.hide(500);
+        } else {
+            portfolioSectionContent.show(500);
+        }
+    });
+}); 
