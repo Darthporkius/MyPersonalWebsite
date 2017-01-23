@@ -32,7 +32,7 @@ $(document).ready(function() {
             homeSectionContent.show(1000);
         }
 
-        if (windowPosition >= 1456 || windowPosition <= 1330) {
+        if (windowPosition >= 1487 || windowPosition <= 1200) {
             portfolioSectionContent.hide(500);
         } else {
             portfolioSectionContent.show(500);

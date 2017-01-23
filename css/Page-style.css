@@ -93,6 +93,7 @@ nav a{
 .portfolioContent{
     width: 900px;
     padding: 100px 20px 20px 20px;
+    z-index: 0;
 }
 
 .contactContent{
