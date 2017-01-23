@@ -43,12 +43,15 @@ nav a{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    z-index: 0;
 }
 
 .subSection {
     height: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 12;
+    position: relative;
 }
 
 .sectOne{
@@ -93,10 +96,14 @@ nav a{
 .portfolioContent{
     width: 900px;
     padding: 100px 20px 20px 20px;
+<<<<<<< HEAD
+    position: relative;
+=======
     z-index: 0;
+>>>>>>> 6f7a166596a501cec8a1b87fea1c111a32dcd1ea
 }
 
 .contactContent{
     width: 550px;
-    padding: 55px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
 }
