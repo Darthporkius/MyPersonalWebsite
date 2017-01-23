@@ -31,8 +31,13 @@ $(document).ready(function() {
         }else{
             homeSectionContent.show(1000);
         }
+<<<<<<< HEAD
 /*
         if (windowPosition >= 1456 || windowPosition <= 1330) {
+=======
+
+        if (windowPosition >= 1487 || windowPosition <= 1200) {
+>>>>>>> 6f7a166596a501cec8a1b87fea1c111a32dcd1ea
             portfolioSectionContent.hide(500);
         } else {
             portfolioSectionContent.show(500);
